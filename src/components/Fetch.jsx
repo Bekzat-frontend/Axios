@@ -12,6 +12,7 @@ function Fetch() {
   }, []);
   return (
     <div>
+      <h1>Fecht</h1>
       {count.map((items) => (
         <div key={items.id}>
           <p>{items.body}</p>

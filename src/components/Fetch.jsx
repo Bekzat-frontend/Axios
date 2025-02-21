@@ -1,9 +1,8 @@
 import React from "react";
-
 import { useState } from "react";
 import { useEffect } from "react";
 
-function Home() {
+function Fetch() {
   const [count, setCount] = useState([]);
 
   useEffect(() => {
@@ -23,4 +22,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Fetch;
